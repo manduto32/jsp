@@ -1,4 +1,7 @@
-let imgs = document.querySelector('img');
+setInterval(()=> {
+
+let imgs = document.querySelectorAll('img');
 imgs.forEach((a, i) => {
-    a.src = '스크린샷 2026-09-27 141924.png'
+    a.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Ox74iftp-aNEPUFIXzAx1FGMgJ2QuQ7B2OW1xWTDgg&s=10'
 })
+}, 500)
